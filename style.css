@@ -1,21 +1,17 @@
 @charset "iso-8859-1";
-body { font-family: Georgia; font-size: 11px; color: #F7EBEE; background-color: 
-#533C40;
-scrollbar-arrow-color: #604349;
-  scrollbar-track-color: #533C40;
-  scrollbar-face-color: #604349;
-  scrollbar-highlight-color: #A87E86;
-  scrollbar-3dlight-color: #533C40;
-  scrollbar-darkshadow-color: #533C40;
-  scrollbar-shadow-color: #A87E86;}
-  
-table { font-family: Georgia; font-size: 11px}
+body { font-family:tahoma; font-size:11px; color:#BCBCBC; background-color:#FFFFFF;
+scrollbar-arrow-color:#BCBCBC;
+scrollbar-track-color:#FFFFFF;
+scrollbar-face-color:#EAEAEA; 
+scrollbar-highlight-color:#BCBCBC;
+scrollbar-3dlight-color:#FFFFFF;
+scrollbar-shadow-color:#BCBCBC;
+scrollbar-darkshadow-color:#FFFFFF; }
 
-.mainhead { font-family: Georgia; font-size:19px; font-weight:bold; text-align:right; padding-right:5px; color: #5E3941; height:26px; background-color: 
-none; background-image:url(mainhead_bg.gif); border: #9B7179; border-style: solid; border-top-width: 0px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 0px}
+table {font-family:tahoma; font-size:11px}
 
-.menuhead { font-family: Georgia; font-size: 16px; font-weight:bold; text-align:center; color: #AB8A91; background-color: 
-none; background-image:url(menuhead_bg.gif); border: #503037; border-style: solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 2px; border-left-width: 0px}
+.header { font-family:tahoma; font-size:11px; color:#BCBCBC; background-color:none; 
+border:#BCBCBC; border-style:solid; border-top-width: 0px; border-right-width: 0px; border-bottom-width: 2px; border-left-width: 0px;}
 
-a:link, a:visited, a:active {color: #D4B2B9; text-decoration: none;}
-a:hover      { color: #CF8290; text-decoration: underline; background-color:none}
+a:link, a:visited, a:active {color:#999999; text-decoration: none;}
+a:hover      { color: #FFFFFF; text-decoration: none; background-color: #000000}
