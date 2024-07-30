@@ -6,6 +6,14 @@
 
 <body bgcolor="#533C40" background="bg.jpg">
 
+<div id="app"></div>
+<script src="https://unpkg.com/webamp"></script>
+<script>
+    const app = document.getElementById("app")
+    const webamp = new Webamp();
+    webamp.renderWhenReady(app);
+</script>
+
 <div id="LAYOUT IMAGES" style="position:absolute; left:0px; top:0px; width:700px">
 <table border="0" width="700" cellspacing="0" cellpadding="0" bgcolor="#533C40">
 <tr><td><img src="img_01.jpg" border="0"></td></tr>
